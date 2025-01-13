@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociación list</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="d-flex flex-column" style="height: 100vh; margin: 0;">
+
+
+    <div id="header-container"></div>
+
+    <label class="text-center mt-3">Administración</label>
+    <input class="text-center mt-3" type="checkbox" id="toggle">
+
+    <div class="publico container mt-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            
+            <div class="col">
+                <div class="card">
+                    <a href="#"><img src="../images/asociacion.jpg" class="card-img-top" alt="Comercio 1"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Asociación comerciantes del Centro</h5>
+                        <p class="card-text">
+                            <p><b>Codigo: </b>ASO1</p>
+                            <p><b>Provincia: </b>Alicante</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col">
+                <div class="card">
+                    <a href="#"><img src="../images/asociacion.jpg" class="card-img-top" alt="Comercio 2"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Asociación 3</h5>
+                        <p class="card-text">
+                            <p><b>Codigo: </b>ASO2</p>
+                            <p><b>Provincia: </b>Valencia</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col">
+                <div class="card">
+                    <a href="#"><img src="../images/asociacion.jpg" class="card-img-top" alt="Comercio 3"></a>
+                     
+                    <div class="card-body">
+                        <h5 class="card-title">Asociación 3</h5>
+                        <p class="card-text">
+                            <p><b>Codigo: </b>ASO3</p>
+                            <p><b>Provincia: </b>Castellón</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <nav aria-label="Página de resultados">
+            <ul class="pagination justify-content-center mt-4">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">Anterior</a>
+                </li>
+                <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Siguiente</a>
+                </li>
+            </ul>
+        </nav>
+    </div>  
+
+    <div class="formulario container mt-5">
+        <h3 class="mb-4">Editar Información</h3>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Código</label>
+                <input type="text" class="form-control" id="nombre" value="ASO1">
+            </div>
+            <div class="mb-3">
+                <label for="localidad" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="localidad" value="Asociación Comerciantes Centro">
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="boton-naranja mb-4">Guardar Cambios</button>
+                <button type="reset" class="boton-azul mb-4">Restablecer</button>
+            </div>
+        </form>
+    </div>
+
+
+    <div id="footer-container" class="mt-auto"></div>
+
+    <script src="../js/cabecera_footer.js"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
