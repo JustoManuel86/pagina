@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'MiFuente';
+  src: 
+       url('../font/FuturaStdMedium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+    --azul-gris: rgb(144, 171, 186);
+    --verde: rgb(0, 98, 105);
+    --azul-marino: rgb(0, 62, 69);
+    --azul: rgb(0, 96, 137);
+    --azul-negro: rgb(11, 16, 29);
+    --negro: rgb(9, 4, 0);
+    --gris-oscuro: rgb(51, 51, 51);
+    --gris: rgb(128, 128, 128);
+    --gris-claro: rgb(179, 179, 179);
+    --blanco: rgb(255, 255, 255);
+    --amarillo: rgb(249, 222, 104);
+    --naranja: rgb(221, 166, 58);
+    --naranja-oscuro: rgb(198, 134, 23);
+    --marron: rgb(158, 126, 79);
+    --rojo-oscuro: rgb(80, 14, 0);
+    --rojo: rgb(194, 0, 36);
+  }
+
+  .navbar {
+    background-color: var(--verde);
+  }
+
+  h1 {
+    font-size: 80px;
+    color: var(--blanco);
+  }
+
+  .idiomas > a {
+    color: var(--blanco);
+    font-weight: bold;
+    font-size:larger
+  }
+
+  .idiomas > a:hover {
+    color: var(--naranja-oscuro);
+  }
+
+  footer  {
+    background-color: var(--azul-negro);
+    text-decoration: none;
+    color: var(--blanco);
+  }
+
+  .enlace {
+    color: var(--blanco);
+    text-decoration: none;
+  }
+
+body {
+  font-family: 'MiFuente', sans-serif;
+}
